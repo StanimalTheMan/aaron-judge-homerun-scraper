@@ -43,7 +43,7 @@ judge_stats = "Aaron Judge has " + homerun_li_element.find('div', attrs = {'clas
 print(judge_stats)
 
 # api.update_status(judge_stats)
-client.create_tweet(text=judge_stats + "sf")
+client.create_tweet(text=judge_stats)
 # query = 'Aaron Judge'
 # tweets = client.search_recent_tweets(query=query, tweet_fields=['context_annotations', 'created_at'], max_results=100)
 
